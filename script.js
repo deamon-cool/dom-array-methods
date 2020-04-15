@@ -7,10 +7,6 @@ const calculateWealthBtn = document.getElementById('calculate-wealth');
 
 let data = [];
 
-getRandomUser();
-getRandomUser();
-getRandomUser();
-
 // fetch random user and add random money
 async function getRandomUser() {
     const res = await fetch('https://randomuser.me/api');
@@ -50,3 +46,6 @@ function updateDOM(providedData = data) {
 function formatMoney(number) {
     return '$' + number.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 }
+
+// event listeners
+addUserBtn.addEventListener('click', getRandomUser);
