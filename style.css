@@ -25,3 +25,16 @@ aside {
     width: 250px;
     border-right: 1px solid #111;
 }
+
+button {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #111;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
