@@ -11,3 +11,17 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+
+.container {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+}
+
+aside {
+    padding: 10px 20px;
+    width: 250px;
+    border-right: 1px solid #111;
+}
